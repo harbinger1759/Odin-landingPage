@@ -23,7 +23,7 @@ body {
 
 .logo {
   display: flex;
-  width: 150px;
+  width: 200px;
   height: auto;
   padding: 10px 10px 10px 20px;
 }
@@ -43,6 +43,10 @@ body {
   text-decoration: none;
   color: #392467;
   font-weight: bold;
+}
+
+.header-links a:hover {
+  color: #c21292;
 }
 
 .hero {
@@ -93,6 +97,16 @@ body {
   font-size: 18px;
   color: #eaeccc;
   width: 150px;
+}
+
+.button-1:hover {
+  background-color: #eaeccc;
+  color: #a367b1;
+}
+
+.button-2:hover {
+  background-color: #c3e2c2;
+  color: #a367b1;
 }
 
 /* Middle section */
